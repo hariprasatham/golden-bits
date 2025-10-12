@@ -1,0 +1,202 @@
+/* --- Global Section Styles --- */
+.why-us-section {
+    background-color: #000; /* Solid black background */
+    color: #fff; /* White text by default */
+    font-family: serif; /* Elegant serif font */
+    padding: 40px 10%; /* General padding */
+}
+
+/* --- Navigation Header --- */
+.why-us-nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px; /* Space below nav header */
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.why-us-brand {
+    font-weight: bold;
+}
+
+.why-us-menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12px; /* Height of the icon */
+    width: 20px; /* Width of the icon */
+    cursor: pointer;
+}
+
+.why-us-menu-icon .bar {
+    width: 100%;
+    height: 1px; /* Thickness of the bars */
+    background-color: #fff;
+}
+
+.why-us-contact {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* --- Main Heading and Commitment --- */
+.why-us-main-content {
+    padding-bottom: 60px; /* Space before the first divider */
+}
+
+.why-us-title {
+    font: var(--font_2);
+    margin-bottom: 80px; /* Space below title */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #f0f0f0;
+}
+
+.why-us-commitment-tag {
+    font: var(--font_8);
+    margin-bottom: 20px;
+}
+
+.why-us-commitment-text {
+    font: var(--font_5);
+    max-width: 990px; /* Constrain width for readability */
+    margin-bottom: 60px; /* Space before the divider */
+    color: #e0e0e0;
+}
+
+.why-us-divider {
+    border: none;
+    border-top: 1px solid white; /* Subtle white line */
+    margin: 40px 0; /* Space around the dividers */
+}
+
+/* --- Feature Points --- */
+.why-us-features {
+    padding-top: 40px;
+}
+
+.feature-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align text and icon at the top */
+    padding: 40px 0; /* Vertical padding for each feature */
+}
+
+.feature-text {
+    flex: 1; /* Allows text to take available space */
+    max-width: 70%; /* Constrain text width */
+}
+
+.feature-title {
+    font: var(--font_5);
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    color: #f0f0f0;
+    padding-left: 150px;
+}
+
+.feature-description {
+    font: var(--font_8);
+    color: #ccc;
+    padding-left: 150px;
+    max-width: 840px; /* Ensure description doesn't get too wide */
+}
+
+.feature-icon {
+    width: 80px; /* Size of the icon container */
+    height: 80px;
+}
+
+.why-us-divider {
+    border: none;
+    border-top: 1px solid white; 
+    margin: 40px 0; 
+    
+    /* Animation base properties */
+    transform: scaleX(0); /* Start completely hidden (0% width) */
+    transform-origin: left; /* Ensure growth happens from the left side */
+    transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Smooth transition over 1 second */
+}
+
+/* Class added by the Intersection Observer when the element is scrolled into view */
+.why-us-divider.is-visible {
+    transform: scaleX(1); /* Animate to full width (100%) */
+}
+
+/* Offset divider for specific positioning */
+.why-us-divider-offset {
+    margin-left: 150px;
+    max-width: calc(100% - 150px);
+}
+
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 768px) {
+    .why-us-section {
+        padding: 30px 5%;
+    }
+
+    .why-us-nav-header {
+        flex-direction: column;
+        gap: 15px;
+        padding-bottom: 20px;
+    }
+    .why-us-brand, .why-us-contact {
+        font-size: 0.8rem;
+    }
+
+    .why-us-title {
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .why-us-commitment-tag {
+        text-align: center;
+    }
+
+    .why-us-commitment-text {
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .feature-item {
+        flex-direction: column; /* Stack text and icon vertically */
+        align-items: center; /* Center items for vertical stack */
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    .feature-text {
+        max-width: 100%;
+        margin-bottom: 20px; /* Space between text and icon */
+    }
+
+    .feature-icon {
+        margin-left: 0; /* Remove horizontal margin */
+        width: 60px;
+        height: 60px;
+    }
+
+    .feature-title {
+        font-size: 1.4rem;
+        padding-left: 0; /* Remove left padding on mobile */
+    }
+
+    .feature-description {
+        font-size: 0.9rem;
+        padding-left: 0; /* Remove left padding on mobile */
+    }
+
+    .why-us-divider {
+        margin: 30px 0; /* Slightly smaller margin on mobile */
+    }
+
+    .why-us-divider-offset {
+        margin-left: 0; /* Remove offset on mobile */
+        max-width: 100%; /* Full width on mobile */
+    }
+}

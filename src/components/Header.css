@@ -1,0 +1,161 @@
+/* General header */
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  position: relative;
+  font-family: "Georgia", serif;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Equal sign rotation */
+.equal-sign {
+display: flex;
+align-items: center;
+justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.equal-sign:hover {
+  transform: rotate(180deg);
+}
+
+/* Desktop nav */
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+  margin-left: 20px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hamburger */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.line {
+  fill: #fff;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  transform-origin: center;
+}
+
+/* Hamburger → X animation */
+.menu-icon.open .line1 {
+  transform: translateY(25px) rotate(45deg);
+}
+
+.menu-icon.open .line2 {
+  opacity: 0;
+}
+
+.menu-icon.open .line3 {
+  transform: translateY(-25px) rotate(-45deg);
+}
+
+/* Mobile dropdown */
+.menu-list {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border-top: 1px solid #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .equal-sign {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+
+.menu-icon svg .line {
+  fill: #fff;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  transform-origin: center;
+}
+
+.menu-icon.open .line1 {
+  transform: translateY(25px) rotate(45deg);
+}
+
+.menu-icon.open .line2 {
+  opacity: 0;
+}
+
+.menu-icon.open .line3 {
+  transform: translateY(-25px) rotate(-45deg);
+}
+
+.menu-link{
+    text-transform: none;
+    color: #FFFFFF;
+    font-family: caudex, serif;
+    font-size: 62px;
+    font-weight: normal;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.menu-link.active{
+    color: #FCFFBC;
+    text-decoration-line: underline;
+}
+
+.menu-list-close-btn-container{
+    width:  100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.menu-list-close-btn-container button{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-top: 30px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.menu-list-close-btn-container button svg{
+    color: white;
+}

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap");
+
+:root {
+  --font_0: normal normal normal 82px / 1em caudex, serif;
+  --font_1: normal normal normal 16px / 1.4em din-next-w01-light, sans-serif;
+  --font_2: normal normal normal 62px / 1.1em caudex, serif;
+  --font_3: normal normal normal 57px / 1.2em caudex, serif;
+  --font_4: normal normal normal 40px / 1.2em caudex, serif;
+  --font_5: normal normal bold 27px / 1.1em caudex, serif;
+  --font_6: normal normal bold 23px / 1.2em caudex, serif;
+  --font_7: normal normal normal 18px / 1.3em "space grotesk", sans-serif;
+  --font_8: normal normal normal 16px / 1.4em "space grotesk", sans-serif;
+  --font_9: normal normal normal 14px / 1.3em "space grotesk", sans-serif;
+  --font_10: normal normal normal 12px / 1.4em din-next-w01-light, sans-serif;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}

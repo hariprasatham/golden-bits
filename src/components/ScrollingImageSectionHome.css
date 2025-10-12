@@ -1,0 +1,53 @@
+.my-parallax-container {
+    /* Set your desired height here (e.g., 400px is shorter than a full screen) */
+    height: 400px !important;
+
+    /* Crucial: Hide any parts of the scaled image that fall outside this new height */
+    overflow: hidden;
+}
+
+/* 2. Target the image inside the wrapper to ensure correct centering */
+.my-parallax-container img {
+    /* This ensures the image covers the container even after scaling by the library */
+    object-fit: cover;
+
+    /* This is the key: it centers the visible part of the image within the container */
+    object-position: center center;
+
+    /* Make sure the image takes up the space */
+    width: 100%;
+    height: 100%;
+
+    /* Optimize for performance on mobile */
+    will-change: transform;
+}
+
+/* --- Responsive Design --- */
+
+/* Large tablets and small desktops */
+@media (max-width: 1024px) {
+    .my-parallax-container {
+        height: 350px !important;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .my-parallax-container {
+        height: 300px !important;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    .my-parallax-container {
+        height: 250px !important;
+    }
+}
+
+/* Small mobile phones */
+@media (max-width: 360px) {
+    .my-parallax-container {
+        height: 200px !important;
+    }
+}

@@ -1,0 +1,145 @@
+.menu-section {
+  background-color: #f8f5f0;
+  padding: 80px 10%;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.menu-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+  letter-spacing: 2px;
+}
+
+.menu-subtitle {
+  font-size: 1.1rem;
+  text-align: center;
+  color: #666;
+  margin-bottom: 60px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-category {
+  margin-bottom: 50px;
+}
+
+.category-title {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #d4af37;
+  padding-bottom: 10px;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.menu-item {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.item-description {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.item-price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #d4af37;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+
+.menu-footer {
+  text-align: center;
+  margin-top: 60px;
+  padding-top: 30px;
+  border-top: 1px solid #ddd;
+}
+
+.menu-footer p {
+  font-size: 0.9rem;
+  color: #888;
+  font-style: italic;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .menu-section {
+    padding: 60px 5%;
+  }
+
+  .menu-title {
+    font-size: 2.5rem;
+  }
+
+  .menu-subtitle {
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+
+  .category-title {
+    font-size: 1.5rem;
+  }
+
+  .menu-items {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .menu-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .item-price {
+    margin-left: 0;
+    margin-top: 15px;
+    font-size: 1.1rem;
+  }
+
+  .menu-footer {
+    margin-top: 40px;
+  }
+}

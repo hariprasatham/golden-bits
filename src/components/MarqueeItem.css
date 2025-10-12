@@ -1,0 +1,88 @@
+.marquee-item-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.marquee-text{
+    padding-right: 10px;
+    font: var(--font_7);
+}
+
+/* SVG Icon sizing */
+.marquee-item-container svg {
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+}
+
+/* --- Responsive Design --- */
+
+/* Large tablets and small desktops */
+@media (max-width: 1024px) {
+    .marquee-item-container {
+        padding-right: 8px;
+    }
+
+    .marquee-text {
+        padding-right: 8px;
+        font-size: 0.9rem;
+    }
+
+    .marquee-item-container svg {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .marquee-item-container {
+        padding-right: 6px;
+    }
+
+    .marquee-text {
+        padding-right: 6px;
+        font-size: 0.8rem;
+    }
+
+    .marquee-item-container svg {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    .marquee-item-container {
+        padding-right: 4px;
+    }
+
+    .marquee-text {
+        padding-right: 4px;
+        font-size: 0.7rem;
+    }
+
+    .marquee-item-container svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Small mobile phones */
+@media (max-width: 360px) {
+    .marquee-item-container {
+        padding-right: 3px;
+    }
+
+    .marquee-text {
+        padding-right: 3px;
+        font-size: 0.6rem;
+    }
+
+    .marquee-item-container svg {
+        width: 25px;
+        height: 25px;
+    }
+}
