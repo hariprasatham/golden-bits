@@ -108,9 +108,6 @@
 
 /* Responsive for mobile screens */
 @media (max-width: 768px) {
-  .hero {
-    padding-top: 80px;
-  }
 
   .hero-title {
     font-size: 2.5rem;

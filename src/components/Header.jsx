@@ -42,8 +42,9 @@ export default function Header() {
         <svg
           data-bbox="44 84 112 32"
           viewBox="0 0 200 200"
-          height="45"
-          width="45"
+          height="50"
+          width="50"
+          fill="white"
           xmlns="http://www.w3.org/2000/svg"
           data-type="shape"
         >
@@ -74,19 +75,22 @@ export default function Header() {
               </svg>
             </button>
           </div>
-          <a className="menu-link active" onClick={() => setMenuOpen(false)}>
+          <a  href="#home"  className="menu-link" onClick={() => setMenuOpen(false)}>
             Home
           </a>
-          <a className="menu-link " onClick={() => setMenuOpen(false)} href="#about">
+          <a href="#about"  className="menu-link " onClick={() => setMenuOpen(false)}>
             About
           </a>
-          <a className="menu-link " onClick={() => setMenuOpen(false)} href="#menu">
+          {/* <a href="#menu" className="menu-link " onClick={() => setMenuOpen(false)}>
             Our Flavours
+          </a> */}
+          <a href="#offer" className="menu-link " onClick={() => setMenuOpen(false)}>
+            Offer
           </a>
-          <a className="menu-link " onClick={() => setMenuOpen(false)} href="#gallery">
-            Gallery
+          <a href="#why-us" className="menu-link " onClick={() => setMenuOpen(false)}>
+            Why Us
           </a>
-          <a className="menu-link " onClick={() => setMenuOpen(false)} href="#contact">
+          <a href="#contact" className="menu-link " onClick={() => setMenuOpen(false)}>
             Contact
           </a>
         </div>

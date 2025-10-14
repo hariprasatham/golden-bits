@@ -57,6 +57,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    justify-content: end;
     padding-bottom: 40px;
 
     font: var(--font_8);
@@ -65,7 +66,15 @@
 .footer-contact-info-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-contact-info-container-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 
@@ -207,7 +216,7 @@
 
     .footer-contact-info-container {
         align-items: center;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
 
     .footer-brand-name {
@@ -228,6 +237,11 @@
         gap: 20px;
     }
 
+    .footer-contact-info-container-left{
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .footer-address-section,
     .footer-legal-section {
         padding: 0; /* Remove horizontal padding */
@@ -241,6 +255,11 @@
 
     .footer-bottom-strip {
         text-align: center; /* Center copyright notice */
+    }
+
+    .footer-tagline{
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 }
 

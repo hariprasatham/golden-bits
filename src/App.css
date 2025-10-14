@@ -20,3 +20,12 @@
   margin: 0px;
   box-sizing: border-box;
 }
+
+#home,
+#about,
+#menu,
+#offer,
+#why-us,
+#contact {
+  scroll-margin-top: 100px; /* add gap when scrolled into view */
+}

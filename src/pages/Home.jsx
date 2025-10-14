@@ -21,8 +21,12 @@ const Home = () => {
             <div id="about">
               <AboutSection />
             </div>
-            <OfferSection />
-            <WhyUsSection />
+            <div id="offer">
+              <OfferSection />
+            </div>
+            <div id="why-us">
+              <WhyUsSection />
+            </div>
             <ScrollingImageSectionHome />
             {/* <div id="menu">
               <MenuSection />

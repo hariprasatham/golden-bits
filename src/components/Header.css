@@ -91,22 +91,6 @@ justify-content: center;
   border-top: 1px solid #333;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .equal-sign {
-    display: none;
-  }
-
-  .nav {
-    display: none;
-  }
-
-  .menu-icon {
-    display: block;
-  }
-}
-
-
 .menu-icon svg .line {
   fill: #fff;
   transition: transform 0.4s ease, opacity 0.4s ease;
@@ -135,7 +119,14 @@ justify-content: center;
     cursor: pointer;
 }
 
-.menu-link.active{
+
+.menu-link:hover{
+    color: #FCFFBC;
+    text-decoration-line: underline;
+}
+
+
+.menu-link:active{
     color: #FCFFBC;
     text-decoration-line: underline;
 }
@@ -158,4 +149,23 @@ justify-content: center;
 
 .menu-list-close-btn-container button svg{
     color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .equal-sign {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .menu-link{
+      font-size: 40px;
+  }
 }
