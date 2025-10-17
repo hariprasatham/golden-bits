@@ -41,7 +41,7 @@ const ContactSection = () => {
           
           {/* Macarons Image Placeholder */}
           <div className="contact-image-container">
-            <img src={ContactSec} alt="Display of macarons in a case" className="contact-macarons-image" />
+            <img src={ContactSec} alt="Display of macarons in a case" className="contact-macarons-image" loading="lazy"  />
           </div>
         </div>
 

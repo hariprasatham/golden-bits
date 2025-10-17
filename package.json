@@ -16,7 +16,8 @@
     "react-dom": "^19.1.1",
     "react-fast-marquee": "^1.6.5",
     "react-router-dom": "^7.9.4",
-    "simple-parallax-js": "^6.3.3"
+    "simple-parallax-js": "^6.3.3",
+    "vite-imagetools": "^9.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

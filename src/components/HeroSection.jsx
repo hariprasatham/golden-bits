@@ -8,7 +8,7 @@ export default function HeroSection() {
     <section className="hero">
       {/* Left image */}
       <div className="hero-image">
-        <img src={leftImage} alt="Chocolate Tart" />
+        <img src={leftImage} alt="Chocolate Tart" loading="lazy"  />
       </div>
 
       {/* Right content */}
@@ -19,7 +19,7 @@ export default function HeroSection() {
 
         <div className="hero-links">
           <a href="#explore">Explore More</a>
-          <img src={rightImage} alt="Macarons Circle" className="hero-circle flip-up" data-aos="flip-up" />
+          <img src={rightImage} alt="Macarons Circle" className="hero-circle flip-up" data-aos="flip-up" loading="lazy"  />
 
           <a href="#menu">View Menu</a>
         </div>

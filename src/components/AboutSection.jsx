@@ -24,7 +24,7 @@ const AboutSection = () => {
         
         {/* Left Chef Image - Placeholder */}
         <div className="about-image-left">
-          <img src={About2} alt="Chef preparing macarons" />
+          <img src={About2} alt="Chef preparing macarons" loading="lazy"  />
           {/* Placeholder for the image of the chef */}
         </div>
         
