@@ -3,8 +3,22 @@ import './ContactSection.css';
 // Note: In a real app, you would import the image:
 // import macaronsImage from './assets/macarons-display.jpg';
 import ContactSec from "../assets/contact-section.png"
-
+import emailjs from "@emailjs/browser"
 const ContactSection = () => {
+
+  const sendEmail = async(e) =>{
+    e.preventDefault();
+    try {
+      await emailjs.sendForm(import.meta.env.VITE_SERVICE_ID,  import.meta.env.VITE_TEMPLATE_ID, e.target, {
+         publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+      });
+      e.target.reset();
+      alert('Email sent successfully!');
+    } catch (error) {
+      console.error('Error sending email:', error);
+    }
+  };
+
   return (
     <section className="contact-section">
     
@@ -33,16 +47,16 @@ const ContactSection = () => {
 
         {/* Right Column: Contact Form */}
         <div className="contact-form-column">
-          <form className="contact-form">
+          <form className="contact-form" onSubmit={sendEmail}>
             
             <label htmlFor="firstName">First name *</label>
-            <input type="text" id="firstName" name="firstName" required />
+            <input type="text" id="firstName" name="first_name" required />
             
             <label htmlFor="lastName">Last name *</label>
-            <input type="text" id="lastName" name="lastName" required />
+            <input type="text" id="lastName" name="last_name" required />
             
             <label htmlFor="email">Email *</label>
-            <input type="email" id="email" name="email" required />
+            <input type="email" id="email" name="from_email" required />
             
             <label htmlFor="message">Message</label>
             <textarea id="message" name="message" rows="5"></textarea>
