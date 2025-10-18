@@ -9,6 +9,8 @@ import MenuSection from '../components/MenuSection'
 import GallerySection from '../components/GallerySection'
 import ContactSection from '../components/ContactSection'
 import ScrollingImageSectionHome from '../components/ScrollingImageSectionHome'
+import ProductList from '../components/ProductList'
+import CustomersSection from '../components/CustomersSection'
 
 const Home = () => {
   return (
@@ -27,11 +29,16 @@ const Home = () => {
             <div id="why-us">
               <WhyUsSection />
             </div>
-            <ScrollingImageSectionHome />
-            {/* <div id="menu">
-              <MenuSection />
+            <div id="menu">
+              <ProductList />
             </div>
-            <div id="gallery">
+            <div>
+              <ScrollingImageSectionHome />
+            </div>
+            <div id="menu">
+              <CustomersSection />
+            </div>
+            {/* <div id="gallery">
               <GallerySection />
             </div>*/}
             <div id="contact">

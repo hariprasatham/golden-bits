@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header className="header">
       {/* Logo */}
-      <div className="logo">Giordano Chiasa</div>
+      <div className="logo">Evergreen <br />Enterprises</div>
 
       {/* Center equal sign */}
       <div className={`equal-sign`} onClick={() => setMenuOpen(!menuOpen)}>

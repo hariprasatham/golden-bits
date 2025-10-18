@@ -34,8 +34,10 @@ const Footer = () => {
             <div className='footer-contact-info-container-left'>
               <div className="footer-contact-info-container">
                 <div className="footer-contact-info">
-                  <p className="footer-phone">123-456-7890</p>
-                  <p className="footer-email">info@mysite.com</p>
+                  <p className="footer-phone">+91 80569 83589</p>
+                  <p className="footer-phone">+91 95145 30300</p>
+                  <p className="footer-phone">+91 80566 91007</p>
+                  <p className="footer-email">Email: greenprises.cbe@gmail.com</p>
                 </div>
                 <div className="footer-social-links">
                   {/* Social Media Icons */}

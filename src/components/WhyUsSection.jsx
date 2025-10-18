@@ -58,10 +58,9 @@ const WhyUsSection = () => {
         <h1 className="why-us-title">WHY US</h1>
         <p className="why-us-commitment-tag">Our Commitment</p>
         <p className="why-us-commitment-text">
-          Giordano Chiasa is committed to providing the finest quality pastries and
-          confections, meticulously prepared with a touch of artistry and elegance.
-          Discover why we are the go-to destination for those seeking a luxurious and
-          indulgent experience.
+          Welcome to Evergreen enterprises bakery’s division, where passion meets the oven! Established in 2022, we're dedicated to crafting delicious bakery products and exclusive desserts like Choco lava, Brownies, Doughnuts, Muffins and more. We supply fresh baked goods to college canteens, cafes, and local eateries, focusing on quality ingredients and taste that delights.
+          <br /><br />
+          Our team bakes with love, ensuring every bite transports you to a moment of joy. Come taste the difference freshness makes!
         </p>
 
         {/* Animated Divider 1: Under Commitment Text */}

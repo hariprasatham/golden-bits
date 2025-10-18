@@ -29,3 +29,6 @@
 #contact {
   scroll-margin-top: 100px; /* add gap when scrolled into view */
 }
+
+
+html, body { overflow-x: hidden; }
