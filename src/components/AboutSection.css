@@ -1,6 +1,6 @@
 /* --- Global Section Styles --- */
 .about-section {
-    background-color: #c5ab96; /* Light taupe/tan background color */
+    background-color: #E3F9DE; /* Light taupe/tan background color */
     color: #333;
     padding: 60px 0px 0px 0px; /* Adjust padding for spacing on larger screens */
     font-family: serif; /* Using a serif font to match the elegant feel */
@@ -23,7 +23,7 @@
     text-transform: uppercase;
     color: #1a1a1a;
     /* Adjusting grid column for title width on the left */
-    max-width: 50%; 
+    /* max-width: 50%;  */
 
 }
 
@@ -48,6 +48,8 @@
     gap: 5%; /* Space between the image and the text */
     align-items: flex-start; /* Aligns content to the top */
     padding: 0px 5%;
+    padding-bottom: 70px;
+    
 }
 
 /* --- Left Chef Image Styling --- */
@@ -71,6 +73,7 @@
     width: 60%;
     padding-top: 50px; /* Push the text block down to align roughly with the middle/top-middle of the chef image */
     padding-left: 100px;
+
 
     font: var(--font_7);
     color: black;

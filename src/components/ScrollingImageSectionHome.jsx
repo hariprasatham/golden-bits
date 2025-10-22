@@ -3,7 +3,8 @@ import './ScrollingImageSectionHome.css';
 import SimpleParallax from "simple-parallax-js";
 
 // Import your actual image
-import bakeryInteriorImage from '../assets/scrolling-image-home.png';
+//import bakeryInteriorImage from '../assets/scrolling-image-home.png';
+import bakeryInteriorImage from '../assets/scrolling_image.jpg';
 
 const ScrollingImageSectionHome = () => {
   const [isMobile, setIsMobile] = useState(false);

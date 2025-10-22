@@ -2,7 +2,8 @@ import React from 'react';
 import './ContactSection.css'; 
 // Note: In a real app, you would import the image:
 // import macaronsImage from './assets/macarons-display.jpg';
-import ContactSec from "../assets/contact-section.png"
+//import ContactSec from "../assets/contact-section.png"
+import ContactSec from "../assets/contact_us.jpg"
 import emailjs from "@emailjs/browser"
 const ContactSection = () => {
 

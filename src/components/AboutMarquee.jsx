@@ -24,22 +24,25 @@ const AboutMarquee = () => {
       gradient={false}
       direction="left"
     >
-      <MarqueeItem />
-      <MarqueeItem />
-      <MarqueeItem />
-      <MarqueeItem />
-      <MarqueeItem />
-      <MarqueeItem />
-      <MarqueeItem />
-      <MarqueeItem />
-      <MarqueeItem />
-      <MarqueeItem />
-      <MarqueeItem />
-      <MarqueeItem />
-      <MarqueeItem />
-      <MarqueeItem />
-      <MarqueeItem />
-      <MarqueeItem />
+      <MarqueeItem name={'Eggless Choco Lava'} />
+      <MarqueeItem name={'Eggless Choco Lava'} />
+      <MarqueeItem name={'Eggless Brownie'} />
+      <MarqueeItem name={'Eggless Doughnut'} />
+      <MarqueeItem name={'Eggless Sandwich'} />
+      <MarqueeItem name={"Chicken Burger"} />
+      <MarqueeItem name={"Eggless Chocolate Muffin"} />
+      <MarqueeItem name={"Eggless Strawberry Muffin"} />
+      <MarqueeItem name={"Eggless Banana Muffin"} />
+      <MarqueeItem name={'Eggless Choco Lava'} />
+      <MarqueeItem name={'Eggless Choco Lava'} />
+      <MarqueeItem name={'Eggless Brownie'} />
+      <MarqueeItem name={'Eggless Doughnut'} />
+      <MarqueeItem name={'Eggless Sandwich'} />
+      <MarqueeItem name={"Chicken Burger"} />
+      <MarqueeItem name={"Eggless Chocolate Muffin"} />
+      <MarqueeItem name={"Eggless Strawberry Muffin"} />
+      <MarqueeItem name={"Eggless Banana Muffin"} />
+
     </Marquee>
   );
 };

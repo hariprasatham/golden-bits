@@ -1,6 +1,7 @@
 .marquee{
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 20px;
+    background-color: #551403;
 }
 
 /* --- Responsive Design --- */

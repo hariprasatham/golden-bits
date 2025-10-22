@@ -17,7 +17,7 @@ const Footer = () => {
 
         {/* Left Column: Branding and Tagline */}
         <div className="footer-branding-column">
-          <p className="footer-brand-name">Giordano Chiasa</p>
+          <p className="footer-brand-name">Evergreen Enterprise</p>
           <p className="footer-tagline">
             Taste of Luxury
             <br />
@@ -69,7 +69,7 @@ const Footer = () => {
       {/* Bottom Copyright Strip */}
       <div className="footer-bottom-strip">
         <p className="footer-copyright">
-          © 2035 by Giordano Chiasa. Powered and secured by <span className="wix-link">Wix</span>
+          © 2025 by <span className="wix-link">Evergreen Enterprise</span>
         </p>
       </div>
 

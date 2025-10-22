@@ -2,10 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #000;
+  background: #F9EFDE;
   color: #fff;
   height: 100vh;
   overflow: hidden;
+
   /* padding-top: 60px; */
 }
 
@@ -31,14 +32,67 @@
   text-align: center;
   padding: 40px;
   gap: 1rem;
+  color: #551403;
+
 }
 
 .hero-title {
   padding-top: 60px;
+  font: var(--font_4);
+  font-size: 60px;
+  letter-spacing: 1px;
+  /* margin-bottom: 1rem; */
+    font-family: serif;
+    font-weight: bold;
+}
+.hero-desc {
+  padding-top: 0px;
   font: var(--font_0);
-  font-size: 82px;
-  letter-spacing: 2px;
+  font-size: 40px;
+  letter-spacing: 1px;
   margin-bottom: 1rem;
+  font-family: none;
+}
+.hero-desc-2{
+  padding-top: 0px;
+  font: var(--font_0);
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  font-family: none;
+}
+
+/* .action-btn{
+  font: var(--font_4);
+  padding: 25px 45px;
+  border-radius: 35px;
+  border: none;
+  background-color: #551403;
+  color: #F9EFDE;
+  text-decoration: none;
+} */
+
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #551403;
+  color: #F9EFDE;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 35px;
+  border: none;
+  font: var(--font_5);
+  transition: background 0.3s;
+}
+
+.action-btn:hover {
+  background-color: #551403;
+}
+
+.call-icon {
+  width: 40px;
+  height: 40px;
 }
 
 .hero-circle {

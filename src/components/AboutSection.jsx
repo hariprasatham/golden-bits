@@ -2,7 +2,7 @@ import React from 'react'
 import "./AboutSection.css"
 
 import About1 from "../assets/about-1.png"
-import About2 from "../assets/about-2.png"
+import About2 from "../assets/about_us.jpg"
 import AboutMarquee from './AboutMarquee'
 
 const AboutSection = () => {
@@ -10,13 +10,7 @@ const AboutSection = () => {
     <section className="about-section">
       {/* Title Area */}
       <div className="about-header">
-        <h1 className="about-title">ABOUT GIORDANO CHIASA</h1>
-        
-        {/* Top Right Image - Placeholder */}
-        <div className="about-image-top-right">
-          <img src={About1} alt="Rich chocolate tart" className='about-1-img' />
-          {/* Placeholder for the image of the tart */}
-        </div>
+        <h1 className="about-title">ABOUT EVERGREEN ENTERPRISES</h1>
       </div>
 
       {/* Main Content Area */}
@@ -32,14 +26,9 @@ const AboutSection = () => {
         <div className="about-text-container">
           <p className="story-title">Our Story</p>
           <p className="story-description">
-            Giordano Chiasa is a luxurious patisserie dedicated to crafting exquisite
-            French pastries and confections. Each creation is meticulously prepared,
-            from delicate macarons to rich chocolate tarts, offering a taste of
-            elegance with every bite. Our sophisticated black and gold color scheme
-            and sleek design elements reflect the artistry and luxury that define our
-            brand.
+            Welcome to Evergreen enterprises bakery’s division, where passion meets the oven! Established in 2022, we're dedicated to crafting delicious bakery products and exclusive desserts like Choco lava, Brownies, Doughnuts, Muffins and more. We supply fresh baked goods to college canteens, cafes, and local eateries, focusing on quality ingredients and taste that delights.
+            Our team bakes with love, ensuring every bite transports you to a moment of joy. Come taste the difference freshness makes!
           </p>
-          <button className="explore-button">Explore more</button>
         </div>
       </div>
 

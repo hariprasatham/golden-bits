@@ -1,5 +1,13 @@
 import React from 'react';
 import './ProductList.css';
+import ProductImg from "../assets/1.jpg"
+import ProductImg2 from "../assets/2.jpg"
+import ProductImg3 from "../assets/3.jpg"
+import ProductImg4 from "../assets/4.jpg"
+import ProductImg5 from "../assets/6.jpg"
+import ProductImg6 from "../assets/7.jpg"
+import ProductImg7 from "../assets/8.jpg"
+import ProductImg8 from "../assets/9.jpg"
 
 const ProductList = () => {
   const products = [
@@ -8,57 +16,65 @@ const ProductList = () => {
       netWeight: '80-85 grams',
       ambientShelfLife: '4 days',
       chillerShelfLife: '15 days',
-      fssaiNo: '1245003001004'
+      fssaiNo: '1245003001004',
+      image: ProductImg
     },
     {
       item: 'Eggless Brownie',
       netWeight: '50-55 grams',
       ambientShelfLife: '5 days',
       chillerShelfLife: '15 days',
-      fssaiNo: '1245003001004'
+      fssaiNo: '1245003001004',
+      image: ProductImg2
     },
     {
       item: 'Eggless Doughnut',
       netWeight: '70-75 grams',
       ambientShelfLife: '2 days',
       chillerShelfLife: '7 days',
-      fssaiNo: '1245003001004'
+      fssaiNo: '1245003001004',
+      image: ProductImg3
     },
     {
       item: 'Eggless Sandwich',
       netWeight: '150 grams',
       ambientShelfLife: '1 day',
       chillerShelfLife: 'N/A',
-      additionalInfo: '4 layers',
-      fssaiNo: '1245003001004'
+      // additionalInfo: '4 layers',
+      fssaiNo: '1245003001004',
+      image: ProductImg4
     },
     {
       item: 'Chicken Burger',
       netWeight: '180 grams',
       ambientShelfLife: '1 day',
       chillerShelfLife: 'N/A',
-      fssaiNo: '1245003001004'
+      fssaiNo: '1245003001004',
+      image: ProductImg5
     },
     {
       item: 'Eggless Chocolate Muffin',
       netWeight: '35 grams',
       ambientShelfLife: '10 days',
       chillerShelfLife: 'N/A',
-      fssaiNo: '1245003001004'
+      fssaiNo: '1245003001004',
+      image: ProductImg6
     },
     {
       item: 'Eggless Strawberry Muffin',
       netWeight: '35 grams',
       ambientShelfLife: '10 days',
       chillerShelfLife: 'N/A',
-      fssaiNo: '1245003001004'
+      fssaiNo: '1245003001004',
+      image: ProductImg7
     },
     {
       item: 'Eggless Banana Muffin',
       netWeight: '35 grams',
       ambientShelfLife: '10 days',
       chillerShelfLife: 'N/A',
-      fssaiNo: '1245003001004'
+      fssaiNo: '1245003001004',
+      image: ProductImg8
     }
   ];
 
@@ -73,6 +89,7 @@ const ProductList = () => {
           {products.map((product, index) => (
             <div key={index} className="product-card">
               <div className="product-info">
+                <img className='product-img' src={product.image} alt='product_img' />
                 <h3 className="product-name">{product.item}</h3>
                 <div className="product-details">
                   <p className="product-detail">
