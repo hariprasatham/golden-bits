@@ -9,7 +9,7 @@
 /* Large tablets and small desktops */
 @media (max-width: 1024px) {
     .marquee {
-        padding-top: 80px;
+        padding-top: 15px;
         padding-bottom: 15px;
     }
 }
@@ -17,16 +17,16 @@
 /* Tablets */
 @media (max-width: 768px) {
     .marquee {
-        padding-top: 30px;
-        padding-bottom: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 }
 
 /* Mobile phones */
 @media (max-width: 480px) {
     .marquee {
-        padding-top: 40px;
-        padding-bottom: 8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 

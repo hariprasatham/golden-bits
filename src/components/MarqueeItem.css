@@ -28,7 +28,7 @@
 
     .marquee-text {
         padding-right: 8px;
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .marquee-item-container svg {
@@ -45,7 +45,7 @@
 
     .marquee-text {
         padding-right: 6px;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .marquee-item-container svg {
@@ -62,7 +62,7 @@
 
     .marquee-text {
         padding-right: 4px;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .marquee-item-container svg {

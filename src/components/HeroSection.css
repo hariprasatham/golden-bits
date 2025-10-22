@@ -152,6 +152,7 @@
 
   .hero-title {
     font-size: 3rem;
+     padding-top: 0px;
   }
 
   .hero-links {
@@ -178,4 +179,14 @@
   .hero-links {
     font-size: 0.9rem;
   }
+
+  .action-btn{
+      padding: 10px 15px;
+        font: var(--font_7);
+  }
+
+  .call-icon {
+  width: 25px;
+  height: auto;
+}
 }
