@@ -3,6 +3,7 @@ import "./HeroSection.css";
 import leftImage from "../assets/home_page.jpg";
 import rightImage from "../assets/hero-section-2.png"; // circular macarons image
 import phoneIcon from "../assets/CALL_1.png";
+import logo from "../assets/logo-tree.png"
 
 export default function HeroSection() {
   return (
@@ -14,6 +15,12 @@ export default function HeroSection() {
 
       {/* Right content */}
       <div className="hero-content">
+        <div className="hero-logo">
+          <img src={logo} alt="Evergreen Logo" className="logo-img" />
+          <div className="logo-text">
+            <h3>Evergreen<br />Enterprises</h3>
+          </div>
+        </div>
         <h3 className="hero-title">
           Eggless Choco Lava
         </h3>
@@ -22,10 +29,10 @@ export default function HeroSection() {
         </h3>
 
         <h3 className="hero-desc-2">
-          Love at first try — grab your exclusive product samples!
+          Grab your exclusive product samples!
         </h3>
 
-        <a className="action-btn" href="tel:8056983589">
+        <a className="action-btn" href="tel:8056691007">
           <img src={phoneIcon} alt="Call" className="call-icon" />
           Call Now
         </a>

@@ -33,7 +33,49 @@
   padding: 40px;
   gap: 1rem;
   color: #551403;
+}
 
+/* .hero-logo {
+  display: inline-block;
+  font-family: 'Serif';
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #551403;          
+  background-color: #E3F9DE;  
+  border: 3px solid #E3F9DE;   
+  border-radius: 12px;         
+  padding: 12px 28px;           
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+} */
+
+.hero-logo {
+  display: flex;
+  align-items: center;       /* vertically center logo and text */
+  background-color: #F9EFDE; /* green box background */
+  border: 3px solid #F9EFDE; /* darker green border */
+  border-radius: 12px;
+  padding: 8px 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #551403;
+  font-family: 'Serif';
+  width: fit-content;        /* shrink box to fit content */
+}
+
+.logo-img {
+  background-color: transparent;
+  width: 50px;               /* adjust logo size */
+  height: 50px;
+  object-fit: contain;
+  margin-right: 15px;        /* spacing between image and text */
+}
+
+.logo-text h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
 }
 
 .hero-title {
@@ -42,24 +84,24 @@
   font-size: 60px;
   letter-spacing: 1px;
   /* margin-bottom: 1rem; */
-    font-family: serif;
-    font-weight: bold;
+  font-family: serif;
+  font-weight: bold;
 }
+
 .hero-desc {
   padding-top: 0px;
   font: var(--font_0);
   font-size: 40px;
   letter-spacing: 1px;
   margin-bottom: 1rem;
-  font-family: none;
 }
-.hero-desc-2{
+
+.hero-desc-2 {
   padding-top: 0px;
   font: var(--font_0);
   font-size: 24px;
   letter-spacing: 1px;
   margin-bottom: 1rem;
-  font-family: none;
 }
 
 /* .action-btn{
@@ -77,7 +119,7 @@
   align-items: center;
   gap: 8px;
   background-color: #551403;
-  color: #F9EFDE;
+  color: #FFF;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 35px;
@@ -152,7 +194,6 @@
 
   .hero-title {
     font-size: 3rem;
-     padding-top: 0px;
   }
 
   .hero-links {
@@ -179,14 +220,4 @@
   .hero-links {
     font-size: 0.9rem;
   }
-
-  .action-btn{
-      padding: 10px 15px;
-        font: var(--font_7);
-  }
-
-  .call-icon {
-  width: 25px;
-  height: auto;
-}
 }

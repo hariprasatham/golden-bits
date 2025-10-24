@@ -19,7 +19,7 @@ const CustomersSection = () => {
   return (
     <section className="customers-section">
       <div className="customers-container">
-        <h2 className="customers-title">Our Valued Customers</h2>
+        <h2 className="customers-title">OUR VALUED CUSTOMERS</h2>
         <p className="customers-subtitle">We are proud to serve these esteemed organizations and businesses</p>
 
         <div className="customers-grid">
@@ -30,9 +30,9 @@ const CustomersSection = () => {
           ))}
         </div>
 
-        <div className="customers-footer">
+        {/* <div className="customers-footer">
           <p>Thank you to all our customers for your continued trust and partnership.</p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

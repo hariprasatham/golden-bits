@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header className="header">
       {/* Logo */}
-      <div className="logo">Evergreen <br />Enterprises</div>
+      <div className="logo">Evergreen Enterprises</div>
 
       {/* Center equal sign */}
       <div className={`equal-sign`} onClick={() => setMenuOpen(!menuOpen)}>
@@ -81,15 +81,15 @@ export default function Header() {
           <a href="#about"  className="menu-link " onClick={() => setMenuOpen(false)}>
             About
           </a>
-          {/* <a href="#menu" className="menu-link " onClick={() => setMenuOpen(false)}>
-            Our Flavours
-          </a> */}
+          <a href="#menu" className="menu-link " onClick={() => setMenuOpen(false)}>
+            Products
+          </a>
           <a href="#offer" className="menu-link " onClick={() => setMenuOpen(false)}>
             Offer
           </a>
-          <a href="#why-us" className="menu-link " onClick={() => setMenuOpen(false)}>
+          {/* <a href="#why-us" className="menu-link " onClick={() => setMenuOpen(false)}>
             Why Us
-          </a>
+          </a> */}
           <a href="#contact" className="menu-link " onClick={() => setMenuOpen(false)}>
             Contact
           </a>

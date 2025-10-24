@@ -81,7 +81,7 @@ const ProductList = () => {
   return (
     <section className="product-list-section">
       <div className="product-list-container">
-        <h2 className="product-list-title">Our Products</h2>
+        <h2 className="product-list-title">OUR PRODUCTS</h2>
         <p className="product-list-subtitle">Discover our range of delicious bakery products with detailed specifications</p>
         <p className="product-list-fssai">FSSAI No: 1245003001004</p>
 

@@ -21,10 +21,13 @@ const OfferSection = () => {
         <h2 className="offer-title">SPECIAL OFFER</h2>
         <p className="offer-subtitle">Limited Time</p>
         <p className="offer-description">
-          Indulge in our delectable treats with a special discount. Treat yourself or surprise a loved one with
-          our luxurious pastries today.
+          Satisfy your sweet cravings with our Eggless Choco Lava, Brownies, 
+          and Banana Muffins. Each bite is a burst of rich flavor and indulgence. 
+          Don’t wait — order now and treat yourself to the ultimate dessert experience!
         </p>
-        <button className="offer-button">Order Now</button>
+        <button className="offer-button"
+        onClick={() => window.location.href = "tel:+918056691007"}
+        >Order Now</button>
       </div>
     </section>
   );

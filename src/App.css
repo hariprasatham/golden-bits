@@ -3,16 +3,16 @@
 
 :root {
   --font_0: normal normal normal 82px / 1em caudex, serif;
-  --font_1: normal normal normal 16px / 1.4em din-next-w01-light, sans-serif;
+  --font_1: normal normal normal 16px / 1.4em caudex, serif;
   --font_2: normal normal normal 62px / 1.1em caudex, serif;
   --font_3: normal normal normal 57px / 1.2em caudex, serif;
   --font_4: normal normal normal 40px / 1.2em caudex, serif;
   --font_5: normal normal bold 27px / 1.1em caudex, serif;
   --font_6: normal normal bold 23px / 1.2em caudex, serif;
-  --font_7: normal normal normal 18px / 1.3em "space grotesk", sans-serif;
-  --font_8: normal normal normal 16px / 1.4em "space grotesk", sans-serif;
-  --font_9: normal normal normal 14px / 1.3em "space grotesk", sans-serif;
-  --font_10: normal normal normal 12px / 1.4em din-next-w01-light, sans-serif;
+  --font_7: normal normal normal 18px / 1.3em caudex, serif;
+  --font_8: normal normal normal 16px / 1.4em caudex, serif;
+  --font_9: normal normal normal 14px / 1.3em caudex, serif;
+  --font_10: normal normal normal 12px / 1.4em caudex, serif;
 }
 
 * {
@@ -31,4 +31,4 @@
 }
 
 
-html, body { overflow-x: hidden; }
+html, body { overflow-x: hidden; font-family: 'Caudex', serif; }

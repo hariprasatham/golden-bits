@@ -1,6 +1,6 @@
 /* --- Global Section Styles --- */
 .about-section {
-    background-color: #E3F9DE; /* Light taupe/tan background color */
+    background-color: #FFF; /* Light taupe/tan background color */
     color: #333;
     padding: 60px 0px 0px 0px; /* Adjust padding for spacing on larger screens */
     font-family: serif; /* Using a serif font to match the elegant feel */
@@ -73,8 +73,6 @@
     width: 60%;
     padding-top: 50px; /* Push the text block down to align roughly with the middle/top-middle of the chef image */
     padding-left: 100px;
-
-
     font: var(--font_7);
     color: black;
 }
@@ -82,7 +80,6 @@
 .story-title {
     font-size: 16px;
     margin-bottom: 30px;
-
 }
 
 .story-description {
@@ -159,7 +156,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 0px;
     }
 
     .about-image-top-right {
@@ -236,7 +232,6 @@
 
     .about-content {
     padding-bottom: 20px;
-    
 }
 
     .story-title {

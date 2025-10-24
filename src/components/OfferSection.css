@@ -78,7 +78,7 @@
     border: 1px solid #fff; /* White border */
     color: #fff;
     padding: 15px 35px;
-    font: normal normal normal 14px / 1.4em 'space grotesk', sans-serif;
+    font: normal normal normal 14px / 1.4em 'caudex', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
@@ -86,7 +86,7 @@
 }
 
 .offer-button:hover {
-    background-color: #fff;
+    background-color: #F9EFDE;
     color: #000;
     border-color: #000; /* Border might disappear if hover background is same as button background */
 }

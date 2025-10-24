@@ -59,12 +59,13 @@
 }
 
 .product-name {
-  font: var(--font_6);
-  color: #2c3e50;
+  font: var(--font_5);
+  color: #000;
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight: 600;
   padding: 10px;
+  font-family: serif;
 }
 
 .product-details {

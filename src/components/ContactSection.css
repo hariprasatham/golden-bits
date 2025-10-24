@@ -1,9 +1,9 @@
 /* --- Global Section Styles --- */
 .contact-section {
-    background-color: rgb(197,171,150); /* Light taupe/tan background color */
+    background-color: #F9EFDE; /* Light taupe/tan background color */
     color: #333;
     font-family: serif; 
-    min-height: 100vh; /* Ensure it takes up at least the viewport height */
+    min-height: auto; /* Ensure it takes up at least the viewport height */
 }
 
 /* --- Navigation Bar --- */
@@ -44,7 +44,7 @@
 
 /* --- Main Title --- */
 .contact-header {
-    padding: 50px 10%; /* Padding for the main title */
+    padding: 30px 10%; /* Padding for the main title */
     text-align: center;
 }
 
@@ -52,7 +52,7 @@
     font: var(--font_2);
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #1a1a1a;
+    color: #000;
 }
 
 /* --- Content Grid Layout --- */
@@ -64,15 +64,24 @@
 
 /* --- Left Column: Info and Image --- */
 .contact-info-column {
-    flex: 1;
-    padding: 80px 10% 100px 5%; /* Adjust padding for visual balance */
-    border-right: 1px solid black; /* Vertical divider */
+  flex: 1;
+  padding: 10px 10% 40px 5%;
+  border-right: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-details {
+  text-align: center;
+  color: #000;
 }
 
 .contact-subtitle {
     font: var(--font_5);
     margin-bottom: 20px;
-    color: #1a1a1a;
+    color: #000;
     text-align: center;
 }
 
@@ -82,34 +91,33 @@
     line-height: 1.6;
 
     max-width: 350px;
-    color: #4a4a4a;
+    color: #000;
     margin: 0px auto;
         margin-bottom: 40px;
 }
 
 .contact-image-container {
-    width: 100%;
-    max-width: 320px; /* Constrain image size */
-    height: auto; /* Fixed height for visual consistency */
-    margin: auto;
+  max-width: 250px;
+  height: auto;
+  margin: 0 auto;
 }
 
-.contact-image-container img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.contact-image-container img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
 /* --- Right Column: Form --- */
 .contact-form-column {
     flex: 1;
-    padding: 80px 10% 80px 5%; /* Adjust padding to match the left column */
+    padding: 00px 10% 40px 5%; /* Adjust padding to match the left column */
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .contact-form label {
@@ -117,7 +125,7 @@
     text-transform: uppercase;
     margin-bottom: 5px;
     margin-top: 20px;
-    color: #1a1a1a;
+    color: #000;
 }
 
 .contact-form input[type="text"],
@@ -129,7 +137,7 @@
     border: 1px solid black;
     font-size: 1rem;
     font-family: sans-serif;
-    color: #1a1a1a;
+    color: #000;
     transition: border-color 0.3s;
 }
 
@@ -147,8 +155,8 @@
 /* --- Submit Button --- */
 .contact-submit-button {
     background-color: transparent;
-    border: 1px solid #1a1a1a; 
-    color: #1a1a1a;
+    border: 1px solid #000; 
+    color: #000;
     padding: 12px 25px;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -162,6 +170,74 @@
 .contact-submit-button:hover {
     background-color: #1a1a1a;
     color: #fff;
+}
+
+.footer-phone {
+    display: flex;
+  align-items: center;     /* vertically center icon & text */
+  gap: 10px; 
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+.footer-email {
+  display: flex;
+  align-items: center;     /* vertically center icon & text */
+  gap: 10px;               /* space between icon and text */
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.call-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.footer-brand-name {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #551403; /* elegant green tone */
+}
+
+.footer-tagline {
+  font-style: italic;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.contact-numbers {
+  margin-bottom: 20px;
+}
+
+.phone-link,
+.email-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.phone-link:hover,
+.email-link:hover {
+  text-decoration: underline;
+}
+
+/* --- Bottom Copyright Strip --- */
+.footer-bottom-strip {
+    border-top: 1px solid rgba(0, 0, 0); 
+    padding: 10px 0;
+    text-align: right;
+}
+
+.footer-copyright {
+    font-size: 0.8rem;
+    color: #000;
+    margin: 0 10px;
+}
+
+.wix-link {
+    /* Style for the "Wix" link/text */
+    font-weight: bold;
 }
 
 /* --- Mobile Responsiveness --- */

@@ -49,7 +49,7 @@ const Home = () => {
           <ContactSection />
         </div>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
