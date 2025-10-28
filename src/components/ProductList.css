@@ -70,6 +70,7 @@
 
 .product-details {
   text-align: left;
+
 }
 
 .product-detail {
@@ -96,6 +97,28 @@
   color: #777;
   font-size: 0.9rem;
 }
+
+.call-button {
+  background: black;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 415px;
+}
+
+.product-info {
+    position: relative;
+}
+
+.call-button img {
+  width: 30px;
+  height: 30px;
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
