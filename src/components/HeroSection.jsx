@@ -32,7 +32,7 @@ export default function HeroSection() {
         </h3>
 
         <a className="action-btn" href="tel:8056691007">
-          <img src={phoneIcon} alt="Call" className="call-icon" />
+          <img src={phoneIcon} alt="Call" className="call-icon1" />
           Call Now
         </a>
 

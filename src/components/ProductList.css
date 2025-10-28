@@ -99,26 +99,36 @@
 }
 
 .call-button {
-  background: black;
+  position: absolute;
+  right: 10px;
+  bottom: 10px; 
+  background: #551403;
   border: none;
   cursor: pointer;
-  padding: 5px;
-  margin-top: 10px;
-  border-radius: 50%;
-  position: absolute;
-  right: 0;
-  top: 415px;
+  width: 40px;     
+  height: 40px;
+  border-radius: 50%; 
+  display: flex;    
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.call-button img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
 }
 
 .product-info {
     position: relative;
 }
 
-.call-button img {
+/* .call-button img {
   width: 30px;
   height: 30px;
   padding-top: 5px;
-}
+} */
 
 
 /* Responsive Design */
@@ -142,5 +152,9 @@
 
   .product-card {
     padding: 20px;
+  }
+
+  .call-button {
+    top: 450px;
   }
 }
