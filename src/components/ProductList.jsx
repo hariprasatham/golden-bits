@@ -9,7 +9,7 @@ import ProductImg8 from "../assets/9.jpg"
 import ProductImg9 from "../assets/Donut.jpg"
 import ProductImg10 from "../assets/Muffin_new.jpg"
 
-import call from "../assets/CALL_1.png"
+import call from "../assets/CALL.png"
 
 const ProductList = () => {
   const products = [
@@ -108,7 +108,7 @@ const ProductList = () => {
                       <span className="detail-label">Type:</span> {product.additionalInfo}
                     </p>
                   )}
-                  <a className="call-button"><img src={call} alt='product_img' href="tel:8056691007" /></a>
+                  <a className="call-button" href="tel:8056691007"><img src={call} alt='product_img'  /></a>
                 </div>
               </div>
             </div>
