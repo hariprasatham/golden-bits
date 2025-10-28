@@ -1,7 +1,4 @@
-import React from 'react'
 import "./AboutSection.css"
-
-import About1 from "../assets/about-1.png"
 import About2 from "../assets/about_us.jpg"
 import AboutMarquee from './AboutMarquee'
 

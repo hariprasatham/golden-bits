@@ -1,7 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
 import leftImage from "../assets/home_page.jpg";
-import rightImage from "../assets/hero-section-2.png"; // circular macarons image
 import phoneIcon from "../assets/CALL_1.png";
 import logo from "../assets/logo-tree.png"
 

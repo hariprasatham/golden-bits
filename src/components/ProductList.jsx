@@ -2,10 +2,8 @@ import React from 'react';
 import './ProductList.css';
 import ProductImg from "../assets/1.jpg"
 import ProductImg2 from "../assets/2.jpg"
-import ProductImg3 from "../assets/3.jpg"
 import ProductImg4 from "../assets/4.jpg"
 import ProductImg5 from "../assets/6.jpg"
-import ProductImg6 from "../assets/7.jpg"
 import ProductImg7 from "../assets/8.jpg"
 import ProductImg8 from "../assets/9.jpg"
 import ProductImg9 from "../assets/Donut.jpg"
