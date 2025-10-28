@@ -112,6 +112,15 @@
   align-items: center;
   justify-content: center;
   padding: 0;
+  text-decoration: none;
+  color:white;
+}
+
+.call-button .call-button-text {
+  display: none; /* Hide text by default */
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .call-button img {
@@ -157,4 +166,34 @@
   .call-button {
     top: 450px;
   }
+}
+
+@media (max-width: 520px) {
+
+
+  .call-button {
+    position: static; /* or position: relative; */
+        top: auto; /* Resetting position-related properties */
+        left: auto;
+        display: inline-flex;
+        align-items: center;
+        gap: 0px;
+        background-color: #551403;
+        color: #FFF;
+        text-decoration: none;
+        padding: 10px 10px;
+        border-radius: 35px;
+        border: none;
+        font: var(--font_5);
+        transition: background 0.3s;
+        width: 138px;
+        
+
+  }
+
+  .call-button .call-button-text {
+  display: block; /* Hide text by default */
+  font-size: 14px;
+  font-weight: bold;
+}
 }
