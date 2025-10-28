@@ -37,10 +37,10 @@ const ContactSection = () => {
         {/* Left Column: Intro Text and Image */}
         <div className="contact-info-column">
           <h2 className="contact-subtitle">Get in Touch</h2>
-          <p className="contact-description">
+ {/*<p className="contact-description">
             Have a question or want to learn more about our patisserie? Feel free to reach
             out to us. We'd love to hear from you.
-          </p>
+          </p>*/}
 
           <div className="contact-details">
             <h3 className="footer-brand-name">Evergreen Enterprises</h3>

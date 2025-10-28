@@ -8,6 +8,8 @@ import ProductImg5 from "../assets/6.jpg"
 import ProductImg6 from "../assets/7.jpg"
 import ProductImg7 from "../assets/8.jpg"
 import ProductImg8 from "../assets/9.jpg"
+import ProductImg9 from "../assets/Donut.jpg"
+import ProductImg10 from "../assets/Muffin_new.jpg"
 
 const ProductList = () => {
   const products = [
@@ -33,7 +35,7 @@ const ProductList = () => {
       ambientShelfLife: '2 days',
       chillerShelfLife: '7 days',
       fssaiNo: '1245003001004',
-      image: ProductImg3
+      image: ProductImg9
     },
     {
       item: 'Eggless Sandwich',
@@ -58,7 +60,7 @@ const ProductList = () => {
       ambientShelfLife: '10 days',
       chillerShelfLife: 'N/A',
       fssaiNo: '1245003001004',
-      image: ProductImg6
+      image: ProductImg10
     },
     {
       item: 'Eggless Strawberry Muffin',
