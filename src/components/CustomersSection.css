@@ -11,13 +11,15 @@
 
 .customers-title {
   font: var(--font_4);
+  font-size: 25px;
   color: #333;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
 .customers-subtitle {
-  font: var(--font_7);
+  font: var(--font_6);
+  font-size: 18px;
   color: #666;
   margin-bottom: 50px;
 }

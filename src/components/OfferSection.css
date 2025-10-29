@@ -50,21 +50,24 @@
 
 .offer-title {
     font: var(--font_2);
-    margin-bottom: 40px;
+    font-size: 25px;
+    margin-bottom: 30px;
     letter-spacing: 2px; /* Spaced out letters */
     text-transform: uppercase;
     color: #f0f0f0; /* Slightly off-white for softer look */
 }
 
 .offer-subtitle {
-    font: var(--font_5);
+    font: var(--font_4);
+    font-size: 20px;
     margin-bottom: 30px;
     letter-spacing: 1px;
     color: #ccc; /* Lighter grey for subtitle */
 }
 
 .offer-description {
-     font: var(--font_7);
+     font: var(--font_6);
+     font-size: 18px;
     margin-bottom: 40px;
     max-width: 460px; /* Constrain description width for readability */
     margin-left: auto;

@@ -124,7 +124,8 @@
   padding: 10px 20px;
   border-radius: 35px;
   border: none;
-  font: var(--font_5);
+  font: var(--font_4);
+  font-size: 24px;
   transition: background 0.3s;
 }
 
