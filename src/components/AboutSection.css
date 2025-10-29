@@ -77,8 +77,13 @@
     color: black;
 }
 
+.about-marquee-container {
+    margin-top: -60px;
+    margin-bottom: 60px;
+}
+
 .story-title {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 30px;
 }
 

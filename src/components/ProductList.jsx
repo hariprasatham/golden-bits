@@ -55,7 +55,7 @@ const ProductList = () => {
       image: ProductImg5
     },
     {
-      item: 'Eggless Chocolate Muffin',
+      item: 'Eggless Banana Muffin',
       netWeight: '35 grams',
       ambientShelfLife: '10 days',
       chillerShelfLife: 'N/A',
@@ -71,7 +71,7 @@ const ProductList = () => {
       image: ProductImg7
     },
     {
-      item: 'Eggless Banana Muffin',
+      item: 'Eggless Chocolate Muffin',
       netWeight: '35 grams',
       ambientShelfLife: '10 days',
       chillerShelfLife: 'N/A',

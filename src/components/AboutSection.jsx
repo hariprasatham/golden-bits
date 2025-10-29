@@ -1,10 +1,14 @@
 import "./AboutSection.css"
 import About2 from "../assets/about_us.jpg"
 import AboutMarquee from './AboutMarquee'
+import HeroMarquee from "./HeroMarquee";
 
 const AboutSection = () => {
   return (
     <section className="about-section">
+      <div className="about-marquee-container">
+      <HeroMarquee />
+      </div>
       {/* Title Area */}
       <div className="about-header">
         <h1 className="about-title">ABOUT EVERGREEN ENTERPRISES</h1>

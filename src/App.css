@@ -1,18 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Serif:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap");
 
 :root {
-  --font_0: normal normal normal 82px / 1em caudex, serif;
-  --font_1: normal normal normal 16px / 1.4em caudex, serif;
-  --font_2: normal normal normal 62px / 1.1em caudex, serif;
-  --font_3: normal normal normal 57px / 1.2em caudex, serif;
-  --font_4: normal normal normal 40px / 1.2em caudex, serif;
-  --font_5: normal normal bold 27px / 1.1em caudex, serif;
-  --font_6: normal normal bold 23px / 1.2em caudex, serif;
-  --font_7: normal normal normal 18px / 1.3em caudex, serif;
-  --font_8: normal normal normal 16px / 1.4em caudex, serif;
-  --font_9: normal normal normal 14px / 1.3em caudex, serif;
-  --font_10: normal normal normal 12px / 1.4em caudex, serif;
+  --font_0: normal normal normal 82px / 1em , serif;
+  --font_1: normal normal normal 16px / 1.4em , serif;
+  --font_2: normal normal normal 62px / 1.1em , serif;
+  --font_3: normal normal normal 57px / 1.2em , serif;
+  --font_4: normal normal normal 40px / 1.2em , serif;
+  --font_5: normal normal bold 27px / 1.1em , serif;
+  --font_6: normal normal bold 23px / 1.2em , serif;
+  --font_7: normal normal normal 18px / 1.3em , serif;
+  --font_8: normal normal normal 16px / 1.4em , serif;
+  --font_9: normal normal normal 14px / 1.3em , serif;
+  --font_10: normal normal normal 12px / 1.4em , serif;
 }
 
 * {
@@ -31,4 +31,4 @@
 }
 
 
-html, body { overflow-x: hidden; font-family: 'Caudex', serif; }
+html, body { overflow-x: hidden; font-family: serif; }

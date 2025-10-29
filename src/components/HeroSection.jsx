@@ -3,6 +3,7 @@ import "./HeroSection.css";
 import leftImage from "../assets/home_page.jpg";
 import phoneIcon from "../assets/CALL_1.png";
 import logo from "../assets/logo-tree.png"
+import HeroMarquee from "./HeroMarquee";
 
 export default function HeroSection() {
   return (
@@ -48,6 +49,7 @@ export default function HeroSection() {
           Experience a World <br /> of Delicate Flavors
         </p> */}
       </div>
+      {/* <HeroMarquee /> */}
     </section>
   );
 }
