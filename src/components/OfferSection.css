@@ -50,7 +50,7 @@
 
 .offer-title {
     font: var(--font_2);
-    font-size: 25px;
+    font-size: 32px;
     margin-bottom: 30px;
     letter-spacing: 2px; /* Spaced out letters */
     text-transform: uppercase;
@@ -59,7 +59,7 @@
 
 .offer-subtitle {
     font: var(--font_4);
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 30px;
     letter-spacing: 1px;
     color: #ccc; /* Lighter grey for subtitle */
