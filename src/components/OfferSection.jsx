@@ -21,9 +21,10 @@ const OfferSection = () => {
         <h2 className="offer-title">SPECIAL OFFER</h2>
         <p className="offer-subtitle">Limited Time</p>
         <p className="offer-description">
-          Satisfy your sweet cravings with our Eggless Choco Lava, Brownies, 
-          and Banana Muffins. Each bite is a burst of rich flavor and indulgence. 
-          Don’t wait — order now and treat yourself to the ultimate dessert experience!
+         🎉 We Take Orders for Every Occasion! 🎉
+         <br />
+Make your celebrations extra special — we cater to Birthday Parties, Marriages, Corporate Events, and College Department Functions.
+Delicious treats, perfect for every moment! 🍰✨
         </p>
         <button className="offer-button"
         onClick={() => window.location.href = "tel:+918056691007"}
