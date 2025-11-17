@@ -32,7 +32,7 @@ export default function HeroSection() {
           Grab your exclusive product samples!
         </h3>
 
-        <a className="action-btn" href="tel:8056691007">
+        <a className="action-btn" href="tel:9514540300">
           <img src={phoneIcon} alt="Call" className="call-icon1" />
           Call Now
         </a>

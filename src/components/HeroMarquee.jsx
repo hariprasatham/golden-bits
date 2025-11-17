@@ -26,19 +26,19 @@ const HeroMarquee = () => {
       direction="left"
     >
       <HeroMarqueeItem
-        name={"We can deliver from 4 pieces up to 10,000 pieces a day"}
+        name={"We can deliver from 10 pieces up to 10,000 pieces a day"}
       />
       <HeroMarqueeItem
-        name={"We can deliver from 4 pieces up to 10,000 pieces a day"}
+        name={"We can deliver from 10 pieces up to 10,000 pieces a day"}
       />
       <HeroMarqueeItem
-        name={"We can deliver from 4 pieces up to 10,000 pieces a day"}
+        name={"We can deliver from 10 pieces up to 10,000 pieces a day"}
       />
       <HeroMarqueeItem
-        name={"We can deliver from 4 pieces up to 10,000 pieces a day"}
+        name={"We can deliver from 10 pieces up to 10,000 pieces a day"}
       />
       <HeroMarqueeItem
-        name={"We can deliver from 4 pieces up to 10,000 pieces a day"}
+        name={"We can deliver from 10 pieces up to 10,000 pieces a day"}
       />
     </Marquee>
   );
