@@ -46,12 +46,12 @@ const ContactSection = () => {
             <div className="contact-numbers">
               <p className="footer-phone">
                 <img src={phoneIcon} alt="Call" className="call-icon" />
-                <a href="tel:+918056983589" className="phone-link">+91 80569 83589</a>
+                <a href="tel:+919514530300" className="phone-link">+91 95145 30300</a>
               </p>
-              <p className="footer-phone">
+              {/* <p className="footer-phone">
                 <img src={phoneIcon} alt="Call" className="call-icon" />
                 <a href="tel:+918056691007" className="phone-link">+91 80566 91007</a>
-              </p>
+              </p> */}
             </div>
 
             <p className="footer-email">
