@@ -108,7 +108,7 @@ const ProductList = () => {
                       <span className="detail-label">Type:</span> {product.additionalInfo}
                     </p>
                   )}
-                  <a className="call-button" href="tel:9514540300"><img src={call} alt='product_img'/><span className='call-button-text'>Call Now</span></a>
+                  <a className="call-button" href="tel:9514530300"><img src={call} alt='product_img'/><span className='call-button-text'>Call Now</span></a>
                 </div>
               </div>
             </div>

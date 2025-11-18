@@ -27,7 +27,7 @@ Make your celebrations extra special — we cater to Birthday Parties, Marriages
 Delicious treats, perfect for every moment! 🍰✨
         </p>
         <button className="offer-button"
-        onClick={() => window.location.href = "tel:+919514540300"}
+        onClick={() => window.location.href = "tel:+919514530300"}
         >Order Now</button>
       </div>
     </section>
